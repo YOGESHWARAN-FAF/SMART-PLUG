@@ -1,8 +1,0 @@
-{
-  "functions": {
-    "api/*.py": {
-      "maxDuration": 10,
-      "includeFiles": "api/rf_model.joblib"
-    }
-  }
-}
