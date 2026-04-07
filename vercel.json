@@ -1,21 +1,8 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "main.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "main.py"
-    }
-  ],
   "functions": {
-    "main.py": {
-      "includeFiles": "rf_model.joblib",
-      "maxDuration": 30
+    "api/*.py": {
+      "maxDuration": 10,
+      "includeFiles": "rf_model.joblib"
     }
   }
 }
