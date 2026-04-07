@@ -2,7 +2,7 @@
   "functions": {
     "api/*.py": {
       "maxDuration": 10,
-      "includeFiles": "rf_model.joblib"
+      "includeFiles": "api/rf_model.joblib"
     }
   }
 }
